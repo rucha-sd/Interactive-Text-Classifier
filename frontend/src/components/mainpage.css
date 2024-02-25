@@ -1,0 +1,65 @@
+body{
+    /* padding: 3vw; */
+    background-color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.Main{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 1vw;
+}
+
+.rightMenu{
+    background-color: rgb(229, 236, 237);
+    padding: 1vw;
+    font-size: 1vw;
+    border-radius: 0.5vw;
+    box-shadow: 4px 4px 8px 5px #c7c7c770;
+}
+
+.rightMenu button{
+    width: 100%;
+    border-right: none;
+    border-left: none;
+    border-color: lightgray;
+    background-color: transparent;
+    text-align: left;
+    padding: 0.5vw;
+}
+
+.deletebox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate("-50%", "-50%");
+    z-index: 10000;
+    list-style:"None";
+    background-color: lightblue;
+    width: 20vw;
+    padding: 2vw;
+    border-radius: 0.8vw;
+}
+
+.deletebox button{
+    background: transparent;
+    padding: 0.5vw;
+    width: 5vw;
+    margin: 2vw 0;
+    border-radius: 2vw;
+    font-size: 1vw;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+  }
+  
